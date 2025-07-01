@@ -8,7 +8,7 @@ pub struct MenuItem {
 
 impl TableRow for MenuItem {
     fn id(&self) -> u32 {
-        0 // Not used for menu, but required by trait
+        0
     }
     fn cells(&self) -> Vec<Cell<'static>> {
         vec![
